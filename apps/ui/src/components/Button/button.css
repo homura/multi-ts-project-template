@@ -1,0 +1,14 @@
+.btn {
+  color: white;
+  background: rgba(100, 149, 237, 0.6);
+  border: none;
+  padding: 8px;
+  margin: 2px;
+  cursor: pointer;
+
+  transition: background-color 0.25s;
+}
+
+.btn:hover {
+  background: rgba(100, 149, 237, 1);
+}

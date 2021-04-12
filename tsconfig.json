@@ -1,0 +1,31 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "pretty": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "preserveWatchOutput": true,
+    "baseUrl": ".",
+    "paths": {
+      "@project-name/*": [
+        "./packages/*/src"
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "packages/commons"
+    }
+  ]
+}
